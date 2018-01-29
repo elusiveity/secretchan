@@ -10,6 +10,8 @@ It's not uncommon for me to crack the shits and recode stuff. I had forgotten ab
 
 Anyway, it's all basic shit for now. Login system should be easy to code :) 
 
+In addition to all this, I haven't written a database installer. So you /cannot/ get this working.
+
 About "SecretChan"
 -----------------------------
 I had absolutely no idea what to call this little "project". The background here is that I wanted a project to learn a templating system. Smarty was my choice as I found it really easy to pick up during those quiet moments at work. 
