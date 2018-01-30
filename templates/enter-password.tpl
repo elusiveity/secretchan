@@ -1,7 +1,7 @@
 {config_load file=test.conf section="setup"}
 {include file="header.tpl"}
 
-<form id='enterpassword' method='post' action='new.php'>
+<form id='enterpassword' method='get' action='new.php'>
 	<input type='password' id='password' name='password' /><br />
 	<select id='board'>
 		<option value='b'>/b/random</option>
