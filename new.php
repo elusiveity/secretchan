@@ -66,6 +66,8 @@ if (isset($_POST['password']) && isset($_POST['board']))
 			$display = 'post-message.tpl';
 		}
 	}
+} else {
+	$display = 'enter-password.tpl';
 }
 
 # Display page
