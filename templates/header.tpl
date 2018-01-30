@@ -8,7 +8,7 @@
 <body>
 <header>
 	<nav>
-	{foreach from=boards item=board}
+	{foreach from=$boards item=board}
 		[<a href='?board={$board}'>{$board}</a>]
 	{/foreach}
 	</nav>
