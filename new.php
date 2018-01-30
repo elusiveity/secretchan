@@ -70,6 +70,12 @@ if (isset($_POST['password']) && isset($_POST['board']))
 	$display = 'enter-password.tpl';
 }
 
+if (isset($_GET['board']))
+{
+	echo $_GET['board'];
+	echo 1;
+}
+
 # Display page
 if (isset($display))
 {
