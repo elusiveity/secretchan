@@ -57,8 +57,13 @@ if (isset($_POST['password']) && isset($_POST['board']))
 		if (testPassword($_POST['password'], $_POST['board'], $con))
 		{
 			echo 1;
+			$smarty->assign('postMessageTitle', 'Logged in yo');
+			$smarty->assign('postMessageDetails', 'You have been given access to our shit. Good luck. If you fuck up I\'ll kick your ass to the curb.');
+			$display = 'post-message.tpl';
 		} else {
-			echo 0;
+			$smarty->assign('postMessageTitle', 'Womp womp.');
+			$smarty->assign('postMessageDetails', 'Your password was wrong. Suck shit asshole.');
+			$display = 'post-message.tpl';
 		}
 	}
 }
