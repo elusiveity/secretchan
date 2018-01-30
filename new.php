@@ -52,7 +52,7 @@ if (!isset($_SESSION['lol']))
 {
 	$display = 'enter-password.tpl';
 } elseif ($_SERVER['REQUEST_METHOD'] == 'POST') {
-	$display = 'fuck.tpl';
+	$display = 'index.tpl';
 }
 
 # Display page
