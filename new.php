@@ -51,8 +51,8 @@ function testPassword($p, $b, $con)
 if (!isset($_SESSION['lol']))
 {
 	$display = 'enter-password.tpl';
-} elseif ($_POST['submit']) {
-	echo 1;
+} elseif ($_SERVER['REQUEST_METHOD'] == 'POST') {
+	$display = 'fuck.tpl';
 }
 
 # Display page
