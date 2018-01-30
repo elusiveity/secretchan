@@ -33,24 +33,34 @@ function testLogin($u, $p, $con)
 }
 
 # Password access into the board.
-function testPassword($p, $con)
+function testPassword($p, $b, $con)
 {
+	# hash pw	
 	$hp = hash('sha256', $p);
-	$sql = "SELECT expiry FROM board_passwords LIMIT 1 WHERE password = ::password";
+	
+	$sql = "SELECT expiry FROM board_passwords LIMIT 1 WHERE password = :password and boardid = :board";
 	$prep = $con->prepare($sql);
-	$prep->bindParam('::password', $hp);
+	$prep->bindParam(':password', $hp);
+	$prep->bindParam(':board', $b);
 	$prep->execute();
 	# Format: 2018-01-29 01:51:19
 	$expiry = $prep->fetch(PDO::FETCH_ASSOC);
-	if ( ! $expiry )
+	if ($prep->rowCount() > 1)
 	{
-		return 0;
+		die('we had an error');
 	} else {
-		return 1;
+		if (strtotime($expiry['expiry']) > strtotime('now'))
+		{ return 1; } else { return 0; }
 	}
 }
 
-function getBoards($con, $)
+
+# Start using the functions and building the page.
+
+if (!isset($_SESSION['lol']))
+{
+	$display = 'enter-password.tpl';
+}
 
 # Display page
 if (isset($display))
