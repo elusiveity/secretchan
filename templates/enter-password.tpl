@@ -3,7 +3,7 @@
 
 <form id='enterpassword' method='get' action='new.php'>
 	<input type='password' id='password' name='password' /><br />
-	<select id='board'>
+	<select id='board' name='board'>
 		<option value='b'>/b/random</option>
 	</select><br />
 	<input type='submit' id='submit' name='submit' value='submit' />
