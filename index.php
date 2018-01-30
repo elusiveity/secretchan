@@ -8,17 +8,29 @@ $dbp = '';
 $dbh = 'localhost';
 $db = 'imageboard';
 
-// Fuck you I make my own variables bitch
 
-if (isset($_GET['board']))
-{
-	$board = $_GET['board'];
-	$title = "$board // $sitename";
-} else {
-	$title = "$sitename - $tagline";
-}
+
 
 // Functions ... kinda.
+
+# Set page title
+function setPageTitle($con)
+{
+	if (isset($_GET['board']))
+	{
+		$stmt = $con->prepare('SELECT * FROM boards WHERE id = :board LIMIT 1');
+		$stmt->bindParam(':board', $_GET['board']);
+		if ($stmt->execute())
+		{
+			$res = $stmt->fetch(PDO::FETCH_ASSOC);
+			return = "/$res[id]/ - $res[name] - $sitename";
+		} else {
+			return = "$sitename - $tagline";
+		}
+	} else {
+		return = "$sitename - $tagline";
+	}
+}
 
 // Pull homepagey stuff. 
 function getPosts($parent = 0, $con)
@@ -27,7 +39,7 @@ function getPosts($parent = 0, $con)
 	$prep = $con->prepare($sql);
 	$prep->bindParam(':parent', $parent);
 	$prep->execute();
-	return $prep->fetchAll();
+	return $prep->fetch(PDO::FETCH_ASSOC);
 }
 
 function getBoards($con)
@@ -35,20 +47,40 @@ function getBoards($con)
 	$sql = 'SELECT * FROM boards';
 	$prep = $con->prepare($sql);
 	$prep->execute();
-	return $prep->fetchAll();
+	return $prep->fetch(PDO::FETCH_ASSOC);
 }
 
+function getBoardDetails($b, $con)
+{
+	$prep = $con->prepare('SELECT * FROM boards WHERE id = :id');
+	$prep->bindParam(':id', $b);
+	if ($prep->execute())
+	{
+		return $prep->fetch(PDO::FETCH_ASSOC);
+	} else {
+		return 0;
+	}
+}
+
+function testBoard($b, $con)
+{
+	$prep = $con->prepare('SELECT * FROM boards WHERE id = :id');
+	$prep->bindParam(':id', $b);
+	if ($prep->execute())
+	{
+		if ($prep->rowCount()>0)
+		{
+			return 1;
+		} else {
+			return 0;
+		}
+	} else {
+		return 0;
+	}
+}
 
 // SQL
 $con = new PDO("mysql:dbname=$db;host=$dbh", $dbu, $dbp);
-
-$homeposts = getPosts(0, $con);
-foreach ($homeposts as $post)
-{ $posts[] = $post; }
-
-$boardz = getBoards($con);
-foreach ($boardz as $board)
-{ $boards[] = $board['id']; }
 
 require 'libs/Smarty.class.php';
 
@@ -57,10 +89,15 @@ $smarty = new Smarty;
 $smarty->compile_check = true;
 $smarty->debugging = false;
 
-$smarty->assign("Title", $title);
-$smarty->assign("posts", $posts);
-$smarty->assign("boards", $boards);
+if (isset($_GET['board']))
+{
+	if (isset(testBoard($_GET['board'], $con)))
+	{
+		$activeBoard = getBoardDetails($_GET['board'], $con);
+	}
+}
 
-$smarty->display('homepage.tpl');
+$smarty->assign("Title", setPageTitle($con));
+$smarty->display($display);
 
 ?>
