@@ -8,7 +8,7 @@ $dbp = '';
 $dbh = 'localhost';
 $db = 'imageboard';
 
-// Fuck you I make my own variables biatch
+// Fuck you I make my own variables bitch
 
 if (isset($_GET['board']))
 {
