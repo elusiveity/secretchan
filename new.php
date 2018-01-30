@@ -48,11 +48,14 @@ function testPassword($p, $b, $con)
 
 # Start using the functions and building the page.
 
-if (!isset($_SESSION['lol']))
+if (isset($_POST['password']) && isset($_POST['board']))
 {
-	$display = 'enter-password.tpl';
-} elseif ($_SERVER['REQUEST_METHOD'] == 'POST') {
-	$display = 'index.tpl';
+	if (testPassword($_POST['password'], $_POST['board'], $con))
+	{
+		echo 1;
+	} else {
+		echo 0;
+	}
 }
 
 # Display page
