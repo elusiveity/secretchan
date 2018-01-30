@@ -50,11 +50,16 @@ function testPassword($p, $b, $con)
 
 if (isset($_POST['password']) && isset($_POST['board']))
 {
-	if (testPassword($_POST['password'], $_POST['board'], $con))
+	if (isset($_SESSION['lol']))
 	{
-		echo 1;
+		echo 2;
 	} else {
-		echo 0;
+		if (testPassword($_POST['password'], $_POST['board'], $con))
+		{
+			echo 1;
+		} else {
+			echo 0;
+		}
 	}
 }
 
