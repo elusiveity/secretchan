@@ -17,8 +17,7 @@ $smarty->debugging = false;
 ## Connect to database
 try
 {
-	$con = new pdo( 'mysql:host=$dbh;dbname=$db',$dbu,$dbp, array(PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION));
-	die(json_encode(array('outcome' => true)));
+	$con = new pdo("mysql:host=$dbh;dbname=$db", $dbu, $dbp);
 }
 catch(PDOException $ex){
     die(json_encode(array('outcome' => false, 'message' => 'Unable to connect')));
@@ -26,24 +25,16 @@ catch(PDOException $ex){
 
 ## Useful functions for things
 
-# For if we go username/password, if we want to sell premium access or some shit
-function testLogin($u, $p, $con)
-{
-	return 0;
-}
-
 # Password access into the board.
 function testPassword($p, $b, $con)
 {
 	# hash pw	
 	$hp = hash('sha256', $p);
-	
-	$sql = "SELECT expiry FROM board_passwords LIMIT 1 WHERE password = :password and boardid = :board";
+	$sql = "SELECT expiry FROM board_passwords WHERE password = :password and boardid = :board";
 	$prep = $con->prepare($sql);
 	$prep->bindParam(':password', $hp);
 	$prep->bindParam(':board', $b);
 	$prep->execute();
-	# Format: 2018-01-29 01:51:19
 	$expiry = $prep->fetch(PDO::FETCH_ASSOC);
 	if ($prep->rowCount() > 1)
 	{
@@ -60,6 +51,8 @@ function testPassword($p, $b, $con)
 if (!isset($_SESSION['lol']))
 {
 	$display = 'enter-password.tpl';
+} elseif ($_POST['submit']) {
+	echo 1;
 }
 
 # Display page
