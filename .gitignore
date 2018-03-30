@@ -219,3 +219,5 @@ pip-log.txt
 # Smarty
 lexer/*.php
 lexer/*.out
+
+config.php

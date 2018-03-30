@@ -1,16 +1,15 @@
-{config_load file=test.conf section="setup"}
-{include file="header.tpl"}
-{include file="postbox.tpl"}
+{include file="header.tpl" title=foo}
+{include file='postblock.tpl'}
 
-{foreach from=$posts item=post}
-	<hr />
-	<div class='homepage-post'>
-		<img src='img/{$post.attachment}' alt='{$post.id}{$post.username}' />
-		<p>
-			<span class='title'>{if $post.title}{$post.title} by {/if}{$post.username}@{$post.timestamp} No. {$post.id}</span><br />
-			{$post.post}
-		</p>
-	</div>
+{foreach $boards as $board}
+<a href='board.php?id={$board.id}'>
+<div class="card {if $board.nfsw eq 0}border-primary{else}border-danger{/if} mb-3" style="max-width: 18rem;">
+  <div class="card-body {if $board.nfsw eq 0}text-primary{else}text-danger{/if}">
+    <h5 class="card-title">{$board.id}</h5>
+    <p class='card-text'>{$board.description}
+  </div>
+</div>
+</a>
 {/foreach}
 
 {include file="footer.tpl"}

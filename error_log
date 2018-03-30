@@ -1,0 +1,181 @@
+[30-Mar-2018 15:49:12 UTC] PHP Warning:  include(db.php): failed to open stream: No such file or directory in /home/nukeground/public_html/index.php on line 9
+[30-Mar-2018 15:49:12 UTC] PHP Warning:  include(): Failed opening 'db.php' for inclusion (include_path='.:/opt/cpanel/ea-php70/root/usr/share/pear') in /home/nukeground/public_html/index.php on line 9
+[30-Mar-2018 15:49:12 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on boolean in /home/nukeground/public_html/index.php:25
+Stack trace:
+#0 /home/nukeground/public_html/index.php(30): getBoards()
+#1 {main}
+  thrown in /home/nukeground/public_html/index.php on line 25
+[30-Mar-2018 15:49:44 UTC] PHP Fatal error:  Uncaught Error: Call to a member function display() on null in /home/nukeground/public_html/index.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/nukeground/public_html/index.php on line 8
+[30-Mar-2018 15:50:11 UTC] PHP Warning:  include(db.php): failed to open stream: No such file or directory in /home/nukeground/public_html/functions.php on line 4
+[30-Mar-2018 15:50:11 UTC] PHP Warning:  include(): Failed opening 'db.php' for inclusion (include_path='.:/opt/cpanel/ea-php70/root/usr/share/pear') in /home/nukeground/public_html/functions.php on line 4
+[30-Mar-2018 15:50:11 UTC] PHP Fatal error:  Uncaught  --> Smarty: Unable to load config 'file:test.conf' <-- 
+  thrown in /home/nukeground/public_html/libs/sysplugins/smarty_template_compiled.php on line 152
+[30-Mar-2018 15:50:32 UTC] PHP Warning:  include(db.php): failed to open stream: No such file or directory in /home/nukeground/public_html/functions.php on line 4
+[30-Mar-2018 15:50:32 UTC] PHP Warning:  include(): Failed opening 'db.php' for inclusion (include_path='.:/opt/cpanel/ea-php70/root/usr/share/pear') in /home/nukeground/public_html/functions.php on line 4
+[30-Mar-2018 15:50:32 UTC] PHP Fatal error:  Uncaught  --> Smarty: Unable to load config 'file:test.conf' <-- 
+  thrown in /home/nukeground/public_html/libs/sysplugins/smarty_template_compiled.php on line 152
+[30-Mar-2018 15:50:44 UTC] PHP Warning:  include(db.php): failed to open stream: No such file or directory in /home/nukeground/public_html/functions.php on line 4
+[30-Mar-2018 15:50:44 UTC] PHP Warning:  include(): Failed opening 'db.php' for inclusion (include_path='.:/opt/cpanel/ea-php70/root/usr/share/pear') in /home/nukeground/public_html/functions.php on line 4
+[30-Mar-2018 15:51:11 UTC] PHP Warning:  include(db.php): failed to open stream: No such file or directory in /home/nukeground/public_html/functions.php on line 4
+[30-Mar-2018 15:51:11 UTC] PHP Warning:  include(): Failed opening 'db.php' for inclusion (include_path='.:/opt/cpanel/ea-php70/root/usr/share/pear') in /home/nukeground/public_html/functions.php on line 4
+[30-Mar-2018 15:51:32 UTC] PHP Warning:  include(db.php): failed to open stream: No such file or directory in /home/nukeground/public_html/functions.php on line 4
+[30-Mar-2018 15:51:32 UTC] PHP Warning:  include(): Failed opening 'db.php' for inclusion (include_path='.:/opt/cpanel/ea-php70/root/usr/share/pear') in /home/nukeground/public_html/functions.php on line 4
+[30-Mar-2018 15:51:32 UTC] PHP Fatal error:  Uncaught  --> Smarty: Unable to load config 'file:test.conf' <-- 
+  thrown in /home/nukeground/public_html/libs/sysplugins/smarty_template_compiled.php on line 152
+[30-Mar-2018 15:51:52 UTC] PHP Warning:  include(db.php): failed to open stream: No such file or directory in /home/nukeground/public_html/functions.php on line 4
+[30-Mar-2018 15:51:52 UTC] PHP Warning:  include(): Failed opening 'db.php' for inclusion (include_path='.:/opt/cpanel/ea-php70/root/usr/share/pear') in /home/nukeground/public_html/functions.php on line 4
+[30-Mar-2018 15:53:17 UTC] PHP Warning:  include(db.php): failed to open stream: No such file or directory in /home/nukeground/public_html/functions.php on line 4
+[30-Mar-2018 15:53:17 UTC] PHP Warning:  include(): Failed opening 'db.php' for inclusion (include_path='.:/opt/cpanel/ea-php70/root/usr/share/pear') in /home/nukeground/public_html/functions.php on line 4
+[30-Mar-2018 15:56:11 UTC] PHP Warning:  include(db.php): failed to open stream: No such file or directory in /home/nukeground/public_html/functions.php on line 4
+[30-Mar-2018 15:56:11 UTC] PHP Warning:  include(): Failed opening 'db.php' for inclusion (include_path='.:/opt/cpanel/ea-php70/root/usr/share/pear') in /home/nukeground/public_html/functions.php on line 4
+[30-Mar-2018 15:56:31 UTC] PHP Warning:  include(db.php): failed to open stream: No such file or directory in /home/nukeground/public_html/functions.php on line 4
+[30-Mar-2018 15:56:31 UTC] PHP Warning:  include(): Failed opening 'db.php' for inclusion (include_path='.:/opt/cpanel/ea-php70/root/usr/share/pear') in /home/nukeground/public_html/functions.php on line 4
+[30-Mar-2018 15:56:47 UTC] PHP Warning:  include(db.php): failed to open stream: No such file or directory in /home/nukeground/public_html/functions.php on line 4
+[30-Mar-2018 15:56:47 UTC] PHP Warning:  include(): Failed opening 'db.php' for inclusion (include_path='.:/opt/cpanel/ea-php70/root/usr/share/pear') in /home/nukeground/public_html/functions.php on line 4
+[30-Mar-2018 15:57:03 UTC] PHP Warning:  include(db.php): failed to open stream: No such file or directory in /home/nukeground/public_html/functions.php on line 4
+[30-Mar-2018 15:57:03 UTC] PHP Warning:  include(): Failed opening 'db.php' for inclusion (include_path='.:/opt/cpanel/ea-php70/root/usr/share/pear') in /home/nukeground/public_html/functions.php on line 4
+[30-Mar-2018 16:02:29 UTC] PHP Warning:  include(db.php): failed to open stream: No such file or directory in /home/nukeground/public_html/functions.php on line 4
+[30-Mar-2018 16:02:29 UTC] PHP Warning:  include(): Failed opening 'db.php' for inclusion (include_path='.:/opt/cpanel/ea-php70/root/usr/share/pear') in /home/nukeground/public_html/functions.php on line 4
+[30-Mar-2018 16:02:38 UTC] PHP Warning:  include(db.php): failed to open stream: No such file or directory in /home/nukeground/public_html/functions.php on line 4
+[30-Mar-2018 16:02:38 UTC] PHP Warning:  include(): Failed opening 'db.php' for inclusion (include_path='.:/opt/cpanel/ea-php70/root/usr/share/pear') in /home/nukeground/public_html/functions.php on line 4
+[30-Mar-2018 16:02:54 UTC] PHP Warning:  include(db.php): failed to open stream: No such file or directory in /home/nukeground/public_html/functions.php on line 4
+[30-Mar-2018 16:02:54 UTC] PHP Warning:  include(): Failed opening 'db.php' for inclusion (include_path='.:/opt/cpanel/ea-php70/root/usr/share/pear') in /home/nukeground/public_html/functions.php on line 4
+[30-Mar-2018 16:04:23 UTC] PHP Warning:  include(db.php): failed to open stream: No such file or directory in /home/nukeground/public_html/functions.php on line 4
+[30-Mar-2018 16:04:23 UTC] PHP Warning:  include(): Failed opening 'db.php' for inclusion (include_path='.:/opt/cpanel/ea-php70/root/usr/share/pear') in /home/nukeground/public_html/functions.php on line 4
+[30-Mar-2018 16:05:13 UTC] PHP Warning:  include(db.php): failed to open stream: No such file or directory in /home/nukeground/public_html/functions.php on line 4
+[30-Mar-2018 16:05:13 UTC] PHP Warning:  include(): Failed opening 'db.php' for inclusion (include_path='.:/opt/cpanel/ea-php70/root/usr/share/pear') in /home/nukeground/public_html/functions.php on line 4
+[30-Mar-2018 16:05:34 UTC] PHP Warning:  include(db.php): failed to open stream: No such file or directory in /home/nukeground/public_html/functions.php on line 4
+[30-Mar-2018 16:05:34 UTC] PHP Warning:  include(): Failed opening 'db.php' for inclusion (include_path='.:/opt/cpanel/ea-php70/root/usr/share/pear') in /home/nukeground/public_html/functions.php on line 4
+[30-Mar-2018 16:06:07 UTC] PHP Warning:  include(db.php): failed to open stream: No such file or directory in /home/nukeground/public_html/functions.php on line 4
+[30-Mar-2018 16:06:07 UTC] PHP Warning:  include(): Failed opening 'db.php' for inclusion (include_path='.:/opt/cpanel/ea-php70/root/usr/share/pear') in /home/nukeground/public_html/functions.php on line 4
+[30-Mar-2018 16:06:14 UTC] PHP Warning:  include(db.php): failed to open stream: No such file or directory in /home/nukeground/public_html/functions.php on line 4
+[30-Mar-2018 16:06:14 UTC] PHP Warning:  include(): Failed opening 'db.php' for inclusion (include_path='.:/opt/cpanel/ea-php70/root/usr/share/pear') in /home/nukeground/public_html/functions.php on line 4
+[30-Mar-2018 16:06:41 UTC] PHP Warning:  include(db.php): failed to open stream: No such file or directory in /home/nukeground/public_html/functions.php on line 4
+[30-Mar-2018 16:06:41 UTC] PHP Warning:  include(): Failed opening 'db.php' for inclusion (include_path='.:/opt/cpanel/ea-php70/root/usr/share/pear') in /home/nukeground/public_html/functions.php on line 4
+[30-Mar-2018 16:06:46 UTC] PHP Warning:  include(db.php): failed to open stream: No such file or directory in /home/nukeground/public_html/functions.php on line 4
+[30-Mar-2018 16:06:46 UTC] PHP Warning:  include(): Failed opening 'db.php' for inclusion (include_path='.:/opt/cpanel/ea-php70/root/usr/share/pear') in /home/nukeground/public_html/functions.php on line 4
+[30-Mar-2018 16:07:01 UTC] PHP Warning:  include(db.php): failed to open stream: No such file or directory in /home/nukeground/public_html/functions.php on line 4
+[30-Mar-2018 16:07:01 UTC] PHP Warning:  include(): Failed opening 'db.php' for inclusion (include_path='.:/opt/cpanel/ea-php70/root/usr/share/pear') in /home/nukeground/public_html/functions.php on line 4
+[30-Mar-2018 16:07:06 UTC] PHP Warning:  include(db.php): failed to open stream: No such file or directory in /home/nukeground/public_html/functions.php on line 4
+[30-Mar-2018 16:07:06 UTC] PHP Warning:  include(): Failed opening 'db.php' for inclusion (include_path='.:/opt/cpanel/ea-php70/root/usr/share/pear') in /home/nukeground/public_html/functions.php on line 4
+[30-Mar-2018 16:08:06 UTC] PHP Warning:  include(db.php): failed to open stream: No such file or directory in /home/nukeground/public_html/functions.php on line 4
+[30-Mar-2018 16:08:06 UTC] PHP Warning:  include(): Failed opening 'db.php' for inclusion (include_path='.:/opt/cpanel/ea-php70/root/usr/share/pear') in /home/nukeground/public_html/functions.php on line 4
+[30-Mar-2018 16:09:32 UTC] PHP Warning:  include(db.php): failed to open stream: No such file or directory in /home/nukeground/public_html/functions.php on line 4
+[30-Mar-2018 16:09:32 UTC] PHP Warning:  include(): Failed opening 'db.php' for inclusion (include_path='.:/opt/cpanel/ea-php70/root/usr/share/pear') in /home/nukeground/public_html/functions.php on line 4
+[30-Mar-2018 16:11:10 UTC] PHP Warning:  include(db.php): failed to open stream: No such file or directory in /home/nukeground/public_html/functions.php on line 4
+[30-Mar-2018 16:11:10 UTC] PHP Warning:  include(): Failed opening 'db.php' for inclusion (include_path='.:/opt/cpanel/ea-php70/root/usr/share/pear') in /home/nukeground/public_html/functions.php on line 4
+[30-Mar-2018 16:14:50 UTC] PHP Warning:  include(db.php): failed to open stream: No such file or directory in /home/nukeground/public_html/functions.php on line 4
+[30-Mar-2018 16:14:50 UTC] PHP Warning:  include(): Failed opening 'db.php' for inclusion (include_path='.:/opt/cpanel/ea-php70/root/usr/share/pear') in /home/nukeground/public_html/functions.php on line 4
+[30-Mar-2018 16:15:41 UTC] PHP Warning:  include(db.php): failed to open stream: No such file or directory in /home/nukeground/public_html/functions.php on line 4
+[30-Mar-2018 16:15:41 UTC] PHP Warning:  include(): Failed opening 'db.php' for inclusion (include_path='.:/opt/cpanel/ea-php70/root/usr/share/pear') in /home/nukeground/public_html/functions.php on line 4
+[30-Mar-2018 16:18:21 UTC] PHP Warning:  include(db.php): failed to open stream: No such file or directory in /home/nukeground/public_html/functions.php on line 4
+[30-Mar-2018 16:18:21 UTC] PHP Warning:  include(): Failed opening 'db.php' for inclusion (include_path='.:/opt/cpanel/ea-php70/root/usr/share/pear') in /home/nukeground/public_html/functions.php on line 4
+[30-Mar-2018 16:18:35 UTC] PHP Warning:  include(db.php): failed to open stream: No such file or directory in /home/nukeground/public_html/functions.php on line 4
+[30-Mar-2018 16:18:35 UTC] PHP Warning:  include(): Failed opening 'db.php' for inclusion (include_path='.:/opt/cpanel/ea-php70/root/usr/share/pear') in /home/nukeground/public_html/functions.php on line 4
+[30-Mar-2018 16:22:59 UTC] PHP Warning:  include(db.php): failed to open stream: No such file or directory in /home/nukeground/public_html/functions.php on line 4
+[30-Mar-2018 16:22:59 UTC] PHP Warning:  include(): Failed opening 'db.php' for inclusion (include_path='.:/opt/cpanel/ea-php70/root/usr/share/pear') in /home/nukeground/public_html/functions.php on line 4
+[30-Mar-2018 16:23:29 UTC] PHP Warning:  include(db.php): failed to open stream: No such file or directory in /home/nukeground/public_html/functions.php on line 4
+[30-Mar-2018 16:23:29 UTC] PHP Warning:  include(): Failed opening 'db.php' for inclusion (include_path='.:/opt/cpanel/ea-php70/root/usr/share/pear') in /home/nukeground/public_html/functions.php on line 4
+[30-Mar-2018 16:23:58 UTC] PHP Warning:  include(db.php): failed to open stream: No such file or directory in /home/nukeground/public_html/functions.php on line 4
+[30-Mar-2018 16:23:58 UTC] PHP Warning:  include(): Failed opening 'db.php' for inclusion (include_path='.:/opt/cpanel/ea-php70/root/usr/share/pear') in /home/nukeground/public_html/functions.php on line 4
+[30-Mar-2018 16:24:21 UTC] PHP Warning:  include(db.php): failed to open stream: No such file or directory in /home/nukeground/public_html/functions.php on line 4
+[30-Mar-2018 16:24:21 UTC] PHP Warning:  include(): Failed opening 'db.php' for inclusion (include_path='.:/opt/cpanel/ea-php70/root/usr/share/pear') in /home/nukeground/public_html/functions.php on line 4
+[30-Mar-2018 16:24:40 UTC] PHP Warning:  include(db.php): failed to open stream: No such file or directory in /home/nukeground/public_html/functions.php on line 4
+[30-Mar-2018 16:24:40 UTC] PHP Warning:  include(): Failed opening 'db.php' for inclusion (include_path='.:/opt/cpanel/ea-php70/root/usr/share/pear') in /home/nukeground/public_html/functions.php on line 4
+[30-Mar-2018 16:25:02 UTC] PHP Warning:  include(db.php): failed to open stream: No such file or directory in /home/nukeground/public_html/functions.php on line 4
+[30-Mar-2018 16:25:02 UTC] PHP Warning:  include(): Failed opening 'db.php' for inclusion (include_path='.:/opt/cpanel/ea-php70/root/usr/share/pear') in /home/nukeground/public_html/functions.php on line 4
+[30-Mar-2018 16:26:45 UTC] PHP Warning:  include(db.php): failed to open stream: No such file or directory in /home/nukeground/public_html/functions.php on line 4
+[30-Mar-2018 16:26:45 UTC] PHP Warning:  include(): Failed opening 'db.php' for inclusion (include_path='.:/opt/cpanel/ea-php70/root/usr/share/pear') in /home/nukeground/public_html/functions.php on line 4
+[30-Mar-2018 16:26:52 UTC] PHP Warning:  include(db.php): failed to open stream: No such file or directory in /home/nukeground/public_html/functions.php on line 4
+[30-Mar-2018 16:26:52 UTC] PHP Warning:  include(): Failed opening 'db.php' for inclusion (include_path='.:/opt/cpanel/ea-php70/root/usr/share/pear') in /home/nukeground/public_html/functions.php on line 4
+[30-Mar-2018 16:28:36 UTC] PHP Warning:  include(db.php): failed to open stream: No such file or directory in /home/nukeground/public_html/functions.php on line 4
+[30-Mar-2018 16:28:36 UTC] PHP Warning:  include(): Failed opening 'db.php' for inclusion (include_path='.:/opt/cpanel/ea-php70/root/usr/share/pear') in /home/nukeground/public_html/functions.php on line 4
+[30-Mar-2018 16:28:55 UTC] PHP Warning:  include(db.php): failed to open stream: No such file or directory in /home/nukeground/public_html/functions.php on line 4
+[30-Mar-2018 16:28:55 UTC] PHP Warning:  include(): Failed opening 'db.php' for inclusion (include_path='.:/opt/cpanel/ea-php70/root/usr/share/pear') in /home/nukeground/public_html/functions.php on line 4
+[30-Mar-2018 16:29:09 UTC] PHP Warning:  include(db.php): failed to open stream: No such file or directory in /home/nukeground/public_html/functions.php on line 4
+[30-Mar-2018 16:29:09 UTC] PHP Warning:  include(): Failed opening 'db.php' for inclusion (include_path='.:/opt/cpanel/ea-php70/root/usr/share/pear') in /home/nukeground/public_html/functions.php on line 4
+[30-Mar-2018 16:29:15 UTC] PHP Warning:  include(db.php): failed to open stream: No such file or directory in /home/nukeground/public_html/functions.php on line 4
+[30-Mar-2018 16:29:15 UTC] PHP Warning:  include(): Failed opening 'db.php' for inclusion (include_path='.:/opt/cpanel/ea-php70/root/usr/share/pear') in /home/nukeground/public_html/functions.php on line 4
+[30-Mar-2018 16:29:58 UTC] PHP Warning:  include(db.php): failed to open stream: No such file or directory in /home/nukeground/public_html/functions.php on line 4
+[30-Mar-2018 16:29:58 UTC] PHP Warning:  include(): Failed opening 'db.php' for inclusion (include_path='.:/opt/cpanel/ea-php70/root/usr/share/pear') in /home/nukeground/public_html/functions.php on line 4
+[30-Mar-2018 16:30:31 UTC] PHP Warning:  include(db.php): failed to open stream: No such file or directory in /home/nukeground/public_html/functions.php on line 4
+[30-Mar-2018 16:30:31 UTC] PHP Warning:  include(): Failed opening 'db.php' for inclusion (include_path='.:/opt/cpanel/ea-php70/root/usr/share/pear') in /home/nukeground/public_html/functions.php on line 4
+[30-Mar-2018 16:32:18 UTC] PHP Warning:  include(db.php): failed to open stream: No such file or directory in /home/nukeground/public_html/functions.php on line 4
+[30-Mar-2018 16:32:18 UTC] PHP Warning:  include(): Failed opening 'db.php' for inclusion (include_path='.:/opt/cpanel/ea-php70/root/usr/share/pear') in /home/nukeground/public_html/functions.php on line 4
+[30-Mar-2018 16:32:55 UTC] PHP Warning:  include(db.php): failed to open stream: No such file or directory in /home/nukeground/public_html/functions.php on line 4
+[30-Mar-2018 16:32:55 UTC] PHP Warning:  include(): Failed opening 'db.php' for inclusion (include_path='.:/opt/cpanel/ea-php70/root/usr/share/pear') in /home/nukeground/public_html/functions.php on line 4
+[30-Mar-2018 16:33:46 UTC] PHP Warning:  include(db.php): failed to open stream: No such file or directory in /home/nukeground/public_html/functions.php on line 4
+[30-Mar-2018 16:33:46 UTC] PHP Warning:  include(): Failed opening 'db.php' for inclusion (include_path='.:/opt/cpanel/ea-php70/root/usr/share/pear') in /home/nukeground/public_html/functions.php on line 4
+[30-Mar-2018 16:33:48 UTC] PHP Warning:  include(db.php): failed to open stream: No such file or directory in /home/nukeground/public_html/functions.php on line 4
+[30-Mar-2018 16:33:48 UTC] PHP Warning:  include(): Failed opening 'db.php' for inclusion (include_path='.:/opt/cpanel/ea-php70/root/usr/share/pear') in /home/nukeground/public_html/functions.php on line 4
+[30-Mar-2018 16:34:02 UTC] PHP Warning:  include(db.php): failed to open stream: No such file or directory in /home/nukeground/public_html/functions.php on line 4
+[30-Mar-2018 16:34:02 UTC] PHP Warning:  include(): Failed opening 'db.php' for inclusion (include_path='.:/opt/cpanel/ea-php70/root/usr/share/pear') in /home/nukeground/public_html/functions.php on line 4
+[30-Mar-2018 16:34:34 UTC] PHP Warning:  include(db.php): failed to open stream: No such file or directory in /home/nukeground/public_html/functions.php on line 4
+[30-Mar-2018 16:34:34 UTC] PHP Warning:  include(): Failed opening 'db.php' for inclusion (include_path='.:/opt/cpanel/ea-php70/root/usr/share/pear') in /home/nukeground/public_html/functions.php on line 4
+[30-Mar-2018 16:34:49 UTC] PHP Warning:  include(db.php): failed to open stream: No such file or directory in /home/nukeground/public_html/functions.php on line 4
+[30-Mar-2018 16:34:49 UTC] PHP Warning:  include(): Failed opening 'db.php' for inclusion (include_path='.:/opt/cpanel/ea-php70/root/usr/share/pear') in /home/nukeground/public_html/functions.php on line 4
+[30-Mar-2018 16:34:56 UTC] PHP Warning:  include(db.php): failed to open stream: No such file or directory in /home/nukeground/public_html/functions.php on line 4
+[30-Mar-2018 16:34:56 UTC] PHP Warning:  include(): Failed opening 'db.php' for inclusion (include_path='.:/opt/cpanel/ea-php70/root/usr/share/pear') in /home/nukeground/public_html/functions.php on line 4
+[30-Mar-2018 16:35:04 UTC] PHP Warning:  include(db.php): failed to open stream: No such file or directory in /home/nukeground/public_html/functions.php on line 4
+[30-Mar-2018 16:35:05 UTC] PHP Warning:  include(): Failed opening 'db.php' for inclusion (include_path='.:/opt/cpanel/ea-php70/root/usr/share/pear') in /home/nukeground/public_html/functions.php on line 4
+[30-Mar-2018 16:35:16 UTC] PHP Warning:  include(db.php): failed to open stream: No such file or directory in /home/nukeground/public_html/functions.php on line 4
+[30-Mar-2018 16:35:16 UTC] PHP Warning:  include(): Failed opening 'db.php' for inclusion (include_path='.:/opt/cpanel/ea-php70/root/usr/share/pear') in /home/nukeground/public_html/functions.php on line 4
+[30-Mar-2018 16:35:18 UTC] PHP Warning:  include(db.php): failed to open stream: No such file or directory in /home/nukeground/public_html/functions.php on line 4
+[30-Mar-2018 16:35:18 UTC] PHP Warning:  include(): Failed opening 'db.php' for inclusion (include_path='.:/opt/cpanel/ea-php70/root/usr/share/pear') in /home/nukeground/public_html/functions.php on line 4
+[30-Mar-2018 16:35:19 UTC] PHP Warning:  include(db.php): failed to open stream: No such file or directory in /home/nukeground/public_html/functions.php on line 4
+[30-Mar-2018 16:35:19 UTC] PHP Warning:  include(): Failed opening 'db.php' for inclusion (include_path='.:/opt/cpanel/ea-php70/root/usr/share/pear') in /home/nukeground/public_html/functions.php on line 4
+[30-Mar-2018 16:35:35 UTC] PHP Warning:  include(db.php): failed to open stream: No such file or directory in /home/nukeground/public_html/functions.php on line 4
+[30-Mar-2018 16:35:35 UTC] PHP Warning:  include(): Failed opening 'db.php' for inclusion (include_path='.:/opt/cpanel/ea-php70/root/usr/share/pear') in /home/nukeground/public_html/functions.php on line 4
+[30-Mar-2018 16:37:52 UTC] PHP Warning:  include(db.php): failed to open stream: No such file or directory in /home/nukeground/public_html/functions.php on line 4
+[30-Mar-2018 16:37:52 UTC] PHP Warning:  include(): Failed opening 'db.php' for inclusion (include_path='.:/opt/cpanel/ea-php70/root/usr/share/pear') in /home/nukeground/public_html/functions.php on line 4
+[30-Mar-2018 16:38:17 UTC] PHP Warning:  include(db.php): failed to open stream: No such file or directory in /home/nukeground/public_html/functions.php on line 4
+[30-Mar-2018 16:38:17 UTC] PHP Warning:  include(): Failed opening 'db.php' for inclusion (include_path='.:/opt/cpanel/ea-php70/root/usr/share/pear') in /home/nukeground/public_html/functions.php on line 4
+[30-Mar-2018 16:38:56 UTC] PHP Warning:  include(db.php): failed to open stream: No such file or directory in /home/nukeground/public_html/functions.php on line 4
+[30-Mar-2018 16:38:56 UTC] PHP Warning:  include(): Failed opening 'db.php' for inclusion (include_path='.:/opt/cpanel/ea-php70/root/usr/share/pear') in /home/nukeground/public_html/functions.php on line 4
+[30-Mar-2018 16:39:12 UTC] PHP Warning:  include(db.php): failed to open stream: No such file or directory in /home/nukeground/public_html/functions.php on line 4
+[30-Mar-2018 16:39:12 UTC] PHP Warning:  include(): Failed opening 'db.php' for inclusion (include_path='.:/opt/cpanel/ea-php70/root/usr/share/pear') in /home/nukeground/public_html/functions.php on line 4
+[30-Mar-2018 16:40:34 UTC] PHP Warning:  include(db.php): failed to open stream: No such file or directory in /home/nukeground/public_html/functions.php on line 4
+[30-Mar-2018 16:40:34 UTC] PHP Warning:  include(): Failed opening 'db.php' for inclusion (include_path='.:/opt/cpanel/ea-php70/root/usr/share/pear') in /home/nukeground/public_html/functions.php on line 4
+[30-Mar-2018 16:41:08 UTC] PHP Warning:  include(db.php): failed to open stream: No such file or directory in /home/nukeground/public_html/functions.php on line 4
+[30-Mar-2018 16:41:08 UTC] PHP Warning:  include(): Failed opening 'db.php' for inclusion (include_path='.:/opt/cpanel/ea-php70/root/usr/share/pear') in /home/nukeground/public_html/functions.php on line 4
+[30-Mar-2018 16:42:46 UTC] PHP Warning:  include(db.php): failed to open stream: No such file or directory in /home/nukeground/public_html/functions.php on line 4
+[30-Mar-2018 16:42:46 UTC] PHP Warning:  include(): Failed opening 'db.php' for inclusion (include_path='.:/opt/cpanel/ea-php70/root/usr/share/pear') in /home/nukeground/public_html/functions.php on line 4
+[30-Mar-2018 16:43:34 UTC] PHP Warning:  include(db.php): failed to open stream: No such file or directory in /home/nukeground/public_html/functions.php on line 4
+[30-Mar-2018 16:43:34 UTC] PHP Warning:  include(): Failed opening 'db.php' for inclusion (include_path='.:/opt/cpanel/ea-php70/root/usr/share/pear') in /home/nukeground/public_html/functions.php on line 4
+[30-Mar-2018 16:43:53 UTC] PHP Warning:  include(db.php): failed to open stream: No such file or directory in /home/nukeground/public_html/functions.php on line 4
+[30-Mar-2018 16:43:53 UTC] PHP Warning:  include(): Failed opening 'db.php' for inclusion (include_path='.:/opt/cpanel/ea-php70/root/usr/share/pear') in /home/nukeground/public_html/functions.php on line 4
+[30-Mar-2018 16:47:04 UTC] PHP Warning:  include(db.php): failed to open stream: No such file or directory in /home/nukeground/public_html/functions.php on line 4
+[30-Mar-2018 16:47:04 UTC] PHP Warning:  include(): Failed opening 'db.php' for inclusion (include_path='.:/opt/cpanel/ea-php70/root/usr/share/pear') in /home/nukeground/public_html/functions.php on line 4
+[30-Mar-2018 16:47:21 UTC] PHP Warning:  include(db.php): failed to open stream: No such file or directory in /home/nukeground/public_html/functions.php on line 4
+[30-Mar-2018 16:47:21 UTC] PHP Warning:  include(): Failed opening 'db.php' for inclusion (include_path='.:/opt/cpanel/ea-php70/root/usr/share/pear') in /home/nukeground/public_html/functions.php on line 4
+[30-Mar-2018 16:48:38 UTC] PHP Warning:  include(db.php): failed to open stream: No such file or directory in /home/nukeground/public_html/functions.php on line 4
+[30-Mar-2018 16:48:38 UTC] PHP Warning:  include(): Failed opening 'db.php' for inclusion (include_path='.:/opt/cpanel/ea-php70/root/usr/share/pear') in /home/nukeground/public_html/functions.php on line 4
+[30-Mar-2018 16:51:47 UTC] PHP Warning:  include(db.php): failed to open stream: No such file or directory in /home/nukeground/public_html/functions.php on line 4
+[30-Mar-2018 16:51:47 UTC] PHP Warning:  include(): Failed opening 'db.php' for inclusion (include_path='.:/opt/cpanel/ea-php70/root/usr/share/pear') in /home/nukeground/public_html/functions.php on line 4
+[30-Mar-2018 16:53:12 UTC] PHP Warning:  include(db.php): failed to open stream: No such file or directory in /home/nukeground/public_html/functions.php on line 4
+[30-Mar-2018 16:53:12 UTC] PHP Warning:  include(): Failed opening 'db.php' for inclusion (include_path='.:/opt/cpanel/ea-php70/root/usr/share/pear') in /home/nukeground/public_html/functions.php on line 4
+[30-Mar-2018 16:53:33 UTC] PHP Warning:  include(db.php): failed to open stream: No such file or directory in /home/nukeground/public_html/functions.php on line 4
+[30-Mar-2018 16:53:33 UTC] PHP Warning:  include(): Failed opening 'db.php' for inclusion (include_path='.:/opt/cpanel/ea-php70/root/usr/share/pear') in /home/nukeground/public_html/functions.php on line 4
+[30-Mar-2018 16:53:39 UTC] PHP Warning:  include(db.php): failed to open stream: No such file or directory in /home/nukeground/public_html/functions.php on line 4
+[30-Mar-2018 16:53:39 UTC] PHP Warning:  include(): Failed opening 'db.php' for inclusion (include_path='.:/opt/cpanel/ea-php70/root/usr/share/pear') in /home/nukeground/public_html/functions.php on line 4
+[30-Mar-2018 16:55:19 UTC] PHP Warning:  include(db.php): failed to open stream: No such file or directory in /home/nukeground/public_html/functions.php on line 4
+[30-Mar-2018 16:55:19 UTC] PHP Warning:  include(): Failed opening 'db.php' for inclusion (include_path='.:/opt/cpanel/ea-php70/root/usr/share/pear') in /home/nukeground/public_html/functions.php on line 4
+[30-Mar-2018 16:56:48 UTC] PHP Warning:  include(db.php): failed to open stream: No such file or directory in /home/nukeground/public_html/functions.php on line 4
+[30-Mar-2018 16:56:48 UTC] PHP Warning:  include(): Failed opening 'db.php' for inclusion (include_path='.:/opt/cpanel/ea-php70/root/usr/share/pear') in /home/nukeground/public_html/functions.php on line 4
+[30-Mar-2018 16:56:52 UTC] PHP Warning:  include(db.php): failed to open stream: No such file or directory in /home/nukeground/public_html/functions.php on line 4
+[30-Mar-2018 16:56:52 UTC] PHP Warning:  include(): Failed opening 'db.php' for inclusion (include_path='.:/opt/cpanel/ea-php70/root/usr/share/pear') in /home/nukeground/public_html/functions.php on line 4
+[30-Mar-2018 16:57:50 UTC] PHP Warning:  include(db.php): failed to open stream: No such file or directory in /home/nukeground/public_html/functions.php on line 4
+[30-Mar-2018 16:57:50 UTC] PHP Warning:  include(): Failed opening 'db.php' for inclusion (include_path='.:/opt/cpanel/ea-php70/root/usr/share/pear') in /home/nukeground/public_html/functions.php on line 4
+[30-Mar-2018 16:58:18 UTC] PHP Warning:  include(db.php): failed to open stream: No such file or directory in /home/nukeground/public_html/functions.php on line 4
+[30-Mar-2018 16:58:18 UTC] PHP Warning:  include(): Failed opening 'db.php' for inclusion (include_path='.:/opt/cpanel/ea-php70/root/usr/share/pear') in /home/nukeground/public_html/functions.php on line 4
+[30-Mar-2018 17:01:04 UTC] PHP Warning:  include(db.php): failed to open stream: No such file or directory in /home/nukeground/public_html/functions.php on line 4
+[30-Mar-2018 17:01:04 UTC] PHP Warning:  include(): Failed opening 'db.php' for inclusion (include_path='.:/opt/cpanel/ea-php70/root/usr/share/pear') in /home/nukeground/public_html/functions.php on line 4
+[30-Mar-2018 17:01:20 UTC] PHP Warning:  include(db.php): failed to open stream: No such file or directory in /home/nukeground/public_html/functions.php on line 4
+[30-Mar-2018 17:01:20 UTC] PHP Warning:  include(): Failed opening 'db.php' for inclusion (include_path='.:/opt/cpanel/ea-php70/root/usr/share/pear') in /home/nukeground/public_html/functions.php on line 4
+[30-Mar-2018 17:01:39 UTC] PHP Warning:  include(db.php): failed to open stream: No such file or directory in /home/nukeground/public_html/functions.php on line 4
+[30-Mar-2018 17:01:39 UTC] PHP Warning:  include(): Failed opening 'db.php' for inclusion (include_path='.:/opt/cpanel/ea-php70/root/usr/share/pear') in /home/nukeground/public_html/functions.php on line 4
+[30-Mar-2018 17:01:50 UTC] PHP Warning:  include(db.php): failed to open stream: No such file or directory in /home/nukeground/public_html/functions.php on line 4
+[30-Mar-2018 17:01:50 UTC] PHP Warning:  include(): Failed opening 'db.php' for inclusion (include_path='.:/opt/cpanel/ea-php70/root/usr/share/pear') in /home/nukeground/public_html/functions.php on line 4

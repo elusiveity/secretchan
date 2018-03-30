@@ -1,0 +1,24 @@
+.post
+{
+	width: 300px;
+	height: 100px;
+	margin: 10px;
+	overflow:hidden;
+}
+
+.post img
+{
+	float:left;
+	min-height: 100%;
+	max-width: 100%;
+}
+
+.post h1
+{
+	float:left;
+}
+
+.imageview img
+{
+	margin: 0;
+}
