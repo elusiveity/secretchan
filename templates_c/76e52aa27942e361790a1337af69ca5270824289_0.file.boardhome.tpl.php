@@ -1,33 +1,33 @@
 <?php
-/* Smarty version 3.1.30, created on 2018-04-03 00:09:36
+/* Smarty version 3.1.30, created on 2018-04-04 07:43:13
   from "/home/nukeground/public_html/templates/boardhome.tpl" */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.30',
-  'unifunc' => 'content_5ac2c6400af517_34642553',
+  'unifunc' => 'content_5ac4821144ee28_13066787',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '76e52aa27942e361790a1337af69ca5270824289' => 
     array (
       0 => '/home/nukeground/public_html/templates/boardhome.tpl',
-      1 => 1522714174,
+      1 => 1522827786,
       2 => 'file',
     ),
   ),
   'includes' => 
   array (
     'file:header.tpl' => 1,
-    'file:postblock.tpl' => 1,
+    'file:postblock-floating.tpl' => 1,
     'file:footer.tpl' => 1,
   ),
 ),false)) {
-function content_5ac2c6400af517_34642553 (Smarty_Internal_Template $_smarty_tpl) {
+function content_5ac4821144ee28_13066787 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_subTemplateRender("file:header.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, $_smarty_tpl->cache_lifetime, array('title'=>'foo'), 0, false);
 ?>
 
-<?php $_smarty_tpl->_subTemplateRender("file:postblock.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, $_smarty_tpl->cache_lifetime, array('title'=>'foo'), 0, false);
+<?php $_smarty_tpl->_subTemplateRender("file:postblock-floating.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, $_smarty_tpl->cache_lifetime, array('title'=>'foo'), 0, false);
 ?>
 
 

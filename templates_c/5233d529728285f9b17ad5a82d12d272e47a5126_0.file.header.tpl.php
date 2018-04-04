@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.30, created on 2018-03-31 02:35:59
+/* Smarty version 3.1.30, created on 2018-04-04 07:42:30
   from "/home/nukeground/public_html/templates/header.tpl" */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.30',
-  'unifunc' => 'content_5abef40ff1e4c4_94906981',
+  'unifunc' => 'content_5ac481e6ddc1e0_48144407',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '5233d529728285f9b17ad5a82d12d272e47a5126' => 
     array (
       0 => '/home/nukeground/public_html/templates/header.tpl',
-      1 => 1522463758,
+      1 => 1522827749,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_5abef40ff1e4c4_94906981 (Smarty_Internal_Template $_smarty_tpl) {
+function content_5ac481e6ddc1e0_48144407 (Smarty_Internal_Template $_smarty_tpl) {
 ?>
 <!doctype html>
 <html lang="en">
@@ -31,6 +31,9 @@ function content_5abef40ff1e4c4_94906981 (Smarty_Internal_Template $_smarty_tpl)
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <?php echo '<script'; ?>
+ defer src="https://use.fontawesome.com/releases/v5.0.9/js/all.js" integrity="sha384-8iPTk2s/jMVj81dnzb/iFR2sdA7u06vHJyyLlAd4snFpCl/SnyUjRrbdJsw1pGIl" crossorigin="anonymous"><?php echo '</script'; ?>
+>
 
     <!-- Custom CSS -->
 	<link rel='stylesheet' href='css/custom.css' type='text/css' />

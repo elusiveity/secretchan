@@ -413,3 +413,7 @@ Stack trace:
 Stack trace:
 #0 {main}
   thrown in /home/nukeground/public_html/thread.php on line 15
+[04-Apr-2018 07:42:30 UTC] PHP Fatal error:  Uncaught  --> Smarty: Unable to load template 'file:postblock.tpl' in 'boardhome.tpl' <-- 
+  thrown in /home/nukeground/public_html/libs/sysplugins/smarty_internal_template.php on line 163
+[04-Apr-2018 07:42:44 UTC] PHP Fatal error:  Uncaught  --> Smarty: Unable to load template 'file:postblock.tpl' in 'boardhome.tpl' <-- 
+  thrown in /home/nukeground/public_html/libs/sysplugins/smarty_internal_template.php on line 163

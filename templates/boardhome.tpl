@@ -1,5 +1,5 @@
 {include file="header.tpl" title=foo}
-{include file="postblock.tpl" title=foo}
+{include file="postblock-floating.tpl" title=foo}
 
 	<div class='container-fluid'>
 		<div class='card-deck'>
