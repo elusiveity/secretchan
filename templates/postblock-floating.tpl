@@ -33,7 +33,7 @@
 				<div class='form-group row'>
 					<label for='message' class='col-2 col-form-label'>Message</label>
 					<div class='col-10'>
-						<textarea id='message'></textarea>
+						<textarea id='message' style='width: 100%'></textarea>
 					</div>
 				</div>
 				<div class='form-group row'>
