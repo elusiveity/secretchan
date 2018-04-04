@@ -1,13 +1,18 @@
-{config_load file="test.conf" section="setup"}
 {include file="header.tpl" title=foo}
+{include file="postblock.tpl"}
 
-		{foreach $posts as $post}
-		<div class='post'>
-			<a href='/src/{$post.file}'><img src='/thumb/{$post.thumb}' /></a>
-			<div class='text'>
-			{$post.message}
-			</div>
-		</div>
-		{/foreach}
+<div class='jumbotron'>
+	<img src='/thumbs/{$post.thumb}' />
+	<h1>{$post.subject}</h1>
+	<p>{$post.message}</h1>
+</div>
+
+{foreach $posts as $post}
+<div class='thread-reply'>
+	<img src='/thumbs/{$post.thumb}' />
+	<h1>{$post.subject}</h1>
+	<p>{$post.message}</h1>
+</div>
+{/foreach}
 
 {include file="footer.tpl"}

@@ -5,7 +5,9 @@ return array(
 	"dbpass" => "pass",
 	"dbhost" => "host",
 	"dbname" => "name",
-	"sitename" => "CHAN L"
+	"sitename" => "CHAN L",
+	"imgdir" => "img/",
+	"thumbdir" => "thumbs/"
 );
 
 ?>

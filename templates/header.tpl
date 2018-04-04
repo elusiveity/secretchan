@@ -11,12 +11,12 @@
     <!-- Custom CSS -->
 	<link rel='stylesheet' href='css/custom.css' type='text/css' />
 
-    <title>{$title} - {$board}</title>
+    <title>{$title}{if isset($board)} - {$board}{/if}</title>
   </head>
   <body>
 <nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-dark">
 <div class='container'>
-  <a class="navbar-brand" href="#">Navbar</a>
+  <a class="navbar-brand" href="/">{$title}</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
@@ -27,13 +27,19 @@
 	  <form class="form-inline">
 	    <div class="input-group">
 	      <div class="input-group-prepend">
-	        <span class="input-group-text" id="basic-addon1">@</span>
+					<select id='searchtype' class='input-group-text'>
+						<option value='board'>B</option>
+						<option value='post'>P</option>
+					</select>
+	        <!-- span class="input-group-text" id="basic-addon1">@</span -->
 	      </div>
-	      <input type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1">
-				<button class='input-group-append'>
-					<span class='input-group-text'>asd</span>
-				</button>
-	    </div>
+	      <input type="text" class="form-control" id='search' name='search' aria-label="search" aria-describedby="basic-addon1">
+				<div class="input-group-append">
+				    <button class="input-group-text btn btn-outline" type="submit">
+							>
+						</button>
+				</div>
+			</div>
 	  </form>
   </div>
 </div>

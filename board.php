@@ -5,34 +5,36 @@
  * @package Example-application
  */
 
-require 'libs/Smarty.class.php';
-$con = include('db.php');
+include('functions.php');
+$error = 0;
 
-function getPosts($parent, $board)
+if (isset($_GET['id']))
 {
-	global $con;
-	$sql = 'select * from b_posts where parent = :parent and board = :board';
-	$q = $con->prepare($sql);
-	$q->bindParam(':parent', $parent);
-	$q->bindParam(':board', $board);
-	$q->execute();
-	return $q->fetchAll();
+	$sql = "select * from boards where id = :bid";
+	$sql = $con->prepare($sql);
+	$sql->bindParam(':bid', $_GET['id']);
+	$sql->execute();
+	if ($sql->rowCount() > 0)
+	{
+		$sql = "SELECT * FROM b_posts WHERE bid = :bid AND parent = 0";
+		$sql = $con->prepare($sql);
+		$sql->bindParam(":bid", $_GET['id']);
+		$sql->execute();
+		$smarty->assign("posts", $sql->fetchAll());
+	} else {
+		$error = 1;
+		$errorsubject = "Board ID doesn't exist";
+		$errormessage = "Stop trying to hack the system. You're not morpheus.";
+	}
 }
 
-$posts = getPosts(0, 'b');
+if ($error > 0)
+{
+	$smarty->assign('errorsubject', $errorsubject);
+	$smarty->assign('errormessage', $errormessage);
+	$smarty->display('error.tpl');
+} else {
+	$smarty->display('boardhome.tpl');
+}
 
-$smarty = new Smarty;
-
-//$smarty->force_compile = true;
-$smarty->debugging = false;
-$smarty->caching = false;
-$smarty->cache_lifetime = 120;
-
-
-$smarty->assign("contacts", array(array("phone" => "1", "fax" => "2", "cell" => "3"),
-                                  array("phone" => "555-4444", "fax" => "555-3333", "cell" => "760-1234")));
-
-$smarty->assign('board', 'b');
-$smarty->assign("posts", $posts);
-
-$smarty->display('boardhome.tpl');
+?>

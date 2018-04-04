@@ -1,9 +1,33 @@
 <?php
 
 require 'libs/Smarty.class.php';
-$con = include('db.php');
+$config = include 'config.php';
+$dsn = "mysql:host=$config[dbhost];dbname=$config[dbname]";
+$con = new PDO($dsn, $config['dbuser'], $config['dbpass']);
 
-function getPosts($parent = 0)
+
+function getPostsAllBoards($parent)
+{
+	global $con;
+	$sql = 'select * from b_posts where parent = :parent';
+	$q = $con->prepare($sql);
+	$q->bindParam(':parent', $parent);
+	$q->execute();
+	return $q->fetchAll();
+}
+
+function getPostsByBoard($board, $parent)
+{
+	global $con;
+	$sql = 'select * from b_posts where parent = :parent AND board = :board';
+	$q = $con->prepare($sql);
+	$q->bindParam(':parent', $parent);
+	$q->bindParam(':board', $board);
+	$q->execute();
+	return $q->fetchAll();
+}
+
+function getPostsByParent($parent)
 {
 	global $con;
 	$sql = 'select * from b_posts where parent = :parent';
@@ -20,6 +44,16 @@ function getBoards()
 	$q = $con->prepare($sql);
 	$q->execute();
 	return $q->fetchAll();
+}
+
+function getSingularPost($id)
+{
+	global $con;
+	$sql = 'select * from b_posts where id = :bid LIMIT 1';
+	$q = $con->prepare($sql);
+	$q->bindParam(':bid', $id);
+	$q->execute();
+	return $q->fetch();
 }
 
 
