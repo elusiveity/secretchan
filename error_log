@@ -417,3 +417,5 @@ Stack trace:
   thrown in /home/nukeground/public_html/libs/sysplugins/smarty_internal_template.php on line 163
 [04-Apr-2018 07:42:44 UTC] PHP Fatal error:  Uncaught  --> Smarty: Unable to load template 'file:postblock.tpl' in 'boardhome.tpl' <-- 
   thrown in /home/nukeground/public_html/libs/sysplugins/smarty_internal_template.php on line 163
+[04-Apr-2018 08:19:13 UTC] PHP Fatal error:  Uncaught  --> Smarty Compiler: Syntax error in template "file:/home/nukeground/public_html/templates/postblock-floating.tpl"  on line 15 "<h5 class="modal-title" id="exampleModalLabel">New {if isset $parent}Thread{else}Reply{/if}</h5>" too many shorthand attributes <-- 
+  thrown in /home/nukeground/public_html/libs/sysplugins/smarty_internal_templatecompilerbase.php on line 15
