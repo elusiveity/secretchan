@@ -1,7 +1,9 @@
 <!-- Button trigger modal -->
-<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
-  Launch demo modal
-</button>
+<div class='new-post-button'>
+  <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+    <i class='fa fa-plus'></i>
+  </button>
+</div>
 
 <!-- Modal -->
 <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
@@ -14,7 +16,7 @@
         </button>
       </div>
       <div class="modal-body">
-        ...
+      ...
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
